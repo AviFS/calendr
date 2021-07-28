@@ -1,0 +1,62 @@
+body {
+    padding-top: 30px;
+    max-width: max-content;
+    margin: auto; 
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body,textarea {
+    background: #181818;
+    color: #C0C0C0;
+}
+
+button {
+    background-color: #444343;
+    border-style: none;
+    border-radius: 3px;
+    color: #adadad;
+    font-family: monospace;
+}
+button:hover {
+    background-color: #585858;
+    cursor: pointer;
+}
+
+
+.textarea {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    /*font: medium -moz-fixed;
+    font: -webkit-small-control;*/
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    height: 300px;
+    width: 500px;
+    background-color: #202020;
+    font-family: monospace;
+}
+
+
+textarea {
+    font-size: 16px;
+    font-family: "DejaVu Sans Mono", monospace;
+    background: #202020;
+    border-radius: 4px;
+    border: 1px solid rgb(0,122,255);
+    margin-bottom: 30px;
+}
+
+#output {
+    border: 0px;
+}
+
+.outer {
+    display: grid;
+    grid-row-gap: 50px;
+    /*grid-template: 1fr / 1fr;
+    place-items: center;*/
+}
