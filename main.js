@@ -20,12 +20,12 @@ function compress() {
 }
 
 function calcTotals() {
-    var acc = Array(7*4).fill(0) 
+    var acc = Array(7*5).fill(0) 
     // var values = $('input').value.split('\n');
     var values = $('input').value.split('\n');
     console.log(values);
     values.forEach(row => {
-        for (var i=0; i<7*4; i++) {
+        for (var i=0; i<7*5; i++) {
             if (row[i] == '#') { acc[i]++; }
             // if (values[i] == '.')
     }
