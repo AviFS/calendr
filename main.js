@@ -36,8 +36,10 @@ function calcTotals() {
 function pprint(totals) {
     var acc = '';
     for (var i = 0; i < totals.length; i++) {
-        acc+=String(totals[i])+'-';
-        if (i%7 == 6) { acc+='\n'; }
+        acc+=`<span class='num${totals[i]}'>  </span>`
+        // Try 5-totals[i] to see with colors inverted
+        // acc+=`<span class='num${5-totals[i]}'>  </span>`
+        if (i%7 == 6) { acc+='<br>'; }
     }
     return acc;
     

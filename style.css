@@ -63,3 +63,43 @@ textarea {
 
 
 /* CALENDAR COLORS */
+.num0 {
+
+    background-color: rgba(18,97,160, 0);
+}
+
+.num1 {
+    background-color: rgba(18,97,160, 0.2);
+}
+.num2 {
+    background-color: rgba(18,97,160, 0.4);
+
+}
+
+.num3 {
+    background-color: rgba(18,97,160, 0.6);
+
+}
+
+.num4 {
+    background-color: rgba(18,97,160, 0.8);
+
+}
+
+.num5 {
+    background-color: rgba(18,97,160, 1);
+
+}
+
+span {
+
+    border: solid 0.5px #585858;
+    display: inline-block;
+}
+
+#output {
+    /* Begin zoom */
+    transform: scale(3.3);
+    transform-origin: 0% 0% 0px;
+    /* End zoom */
+}
